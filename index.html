@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rupiah vs Dollar — Indonesia's Currency Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Rupiah × Dollar</a>
+  <div class="nav-links">
+    <a href="#history">History</a>
+    <a href="#timeline">Events</a>
+    <a href="#power">Purchasing Power</a>
+    <a href="#converter">Converter</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-ticker"><div class="hero-ticker-inner">RUPIAH · USD/IDR · INFLASI · KURS ·</div></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Indonesia · Economic Analysis · 1997–2026</p>
+    <h1 class="hero-headline">The Rupiah's<br><em>long journey</em><br>downward</h1>
+    <p class="hero-sub">From 2,400 to 17,700 per dollar — a 25-year story of crisis, resilience, and the slow erosion of purchasing power.</p>
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-label">Pre-crisis (1997)</div>
+        <div class="hero-stat-value">Rp 2,400</div>
+      </div>
+      <div>
+        <div class="hero-stat-label">Crisis peak (1998)</div>
+        <div class="hero-stat-value danger">Rp 16,650</div>
+      </div>
+      <div>
+        <div class="hero-stat-label">Today (2026)</div>
+        <div class="hero-stat-value danger">Rp 17,700</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">Scroll</div>
+</div>
+
+<!-- OVERVIEW SECTION -->
+<section id="history">
+  <p class="section-label reveal">Overview</p>
+  <h2 class="section-title reveal">A currency shaped<br>by global shocks</h2>
+  <p class="section-intro reveal">Indonesia's rupiah has experienced some of the most dramatic currency swings in modern economic history. Here's how the numbers look today.</p>
+
+  <div class="stat-grid reveal">
+    <div class="stat-card gold">
+      <div class="stat-card-label">Rate in 1997 (pre-crisis)</div>
+      <div class="stat-card-value">Rp 2,400</div>
+      <div class="stat-card-sub">per 1 USD</div>
+    </div>
+    <div class="stat-card accent">
+      <div class="stat-card-label">Crisis peak (1998)</div>
+      <div class="stat-card-value red">Rp 16,650</div>
+      <div class="stat-card-sub">per 1 USD · worst in history</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card-label">Stable era (2003)</div>
+      <div class="stat-card-value">Rp 8,577</div>
+      <div class="stat-card-sub">per 1 USD · post-crisis recovery</div>
+    </div>
+    <div class="stat-card accent">
+      <div class="stat-card-label">Today (May 2026)</div>
+      <div class="stat-card-value red">Rp 17,700</div>
+      <div class="stat-card-sub">per 1 USD · near record low</div>
+    </div>
+  </div>
+
+  <!-- MAIN CHART -->
+  <div class="chart-wrapper reveal">
+    <div class="chart-header">
+      <div>
+        <div class="chart-title">USD/IDR exchange rate</div>
+        <div class="chart-sub">Annual average exchange rates, 1997–2026</div>
+      </div>
+      <div class="tab-row">
+        <button class="tab-btn active" onclick="setRange('full', this)">Full history</button>
+        <button class="tab-btn" onclick="setRange('recent', this)">2015–2026</button>
+      </div>
+    </div>
+    <div class="legend-row">
+      <div class="legend-item"><span class="legend-dot" style="background:#C8382A;"></span>USD/IDR rate</div>
+    </div>
+    <div class="canvas-wrap" style="height: 320px;">
+      <canvas id="mainChart" role="img" aria-label="Line chart of USD to IDR rate 1997 to 2026">USD/IDR rose from 2400 in 1997, spiked to 16650 in 1998, recovered to 8577 in 2003, then gradually rose to 17700 by 2026.</canvas>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline" class="timeline-section">
+  <div class="timeline-inner">
+    <p class="section-label reveal">Key events</p>
+    <h2 class="section-title reveal">The turning points<br>that shaped the rupiah</h2>
+    <p class="section-intro reveal">Seven moments that define Indonesia's currency story.</p>
+    <div class="timeline" id="timeline-list">
+      <!-- rendered by animations.js -->
+    </div>
+  </div>
+</section>
+
+<!-- PURCHASING POWER -->
+<section id="power">
+  <div class="pp-section reveal">
+    <p class="section-label">Purchasing power</p>
+    <h2 class="section-title">What does Rp 100,000 buy<br>in US dollars?</h2>
+    <p class="section-intro">The same banknote that once converted to over $40 now buys less than $6 on world markets.</p>
+    <div class="canvas-wrap" style="height: 260px; margin-top: 2rem;">
+      <canvas id="powerChart" role="img" aria-label="Bar chart showing the declining USD purchasing power of 100000 IDR">Rp 100000 was worth $41.67 in 1997, fell to $6.01 in 1998, and is worth $5.65 in 2026.</canvas>
+    </div>
+    <div class="pp-source">Data: Bank Indonesia · IMF · Trading Economics. Calculated as 100,000 ÷ annual average rate.</div>
+  </div>
+</section>
+
+<!-- CONVERTER -->
+<section id="converter">
+  <p class="section-label reveal">Live tool</p>
+  <h2 class="section-title reveal">Currency converter</h2>
+  <p class="section-intro reveal">Convert between USD and IDR using historical rates from different eras.</p>
+
+  <div class="converter reveal">
+    <div class="converter-grid">
+      <div class="converter-field">
+        <label>Amount</label>
+        <input type="number" id="conv-amount" value="100" min="0" oninput="convert()">
+      </div>
+      <div class="converter-arrow">⇄</div>
+      <div class="converter-field">
+        <label>Era / Rate</label>
+        <select id="conv-era" onchange="convert()">
+          <!-- rendered by converter.js -->
+        </select>
+      </div>
+    </div>
+    <div id="conv-direction" style="margin-top:1rem; display:flex; gap:8px;">
+      <button class="tab-btn active" onclick="setDir('usd2idr', this)">USD → IDR</button>
+      <button class="tab-btn" onclick="setDir('idr2usd', this)">IDR → USD</button>
+    </div>
+    <div class="converter-result" id="conv-result">
+      <span class="converter-result-label" id="conv-label">$100 USD equals</span>
+      <span class="converter-result-value" id="conv-output">Rp 1,770,000</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-brand">Rupiah × Dollar</p>
+  <p>Data: Bank Indonesia · IMF · Trading Economics · Investing.com · exchange-rates.org</p>
+  <p style="margin-top: 0.5rem;">Rates are approximate annual averages. Not financial advice.</p>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="data.js"></script>
+<script src="chart.js"></script>
+<script src="converter.js"></script>
+<script src="animations.js"></script>
+
+</body>
+</html>
