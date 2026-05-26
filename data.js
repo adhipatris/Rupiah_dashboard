@@ -32,7 +32,7 @@ const POWER_DATA = [
   { year: '2018', rate: 14236 },
   { year: '2020', rate: 14582 },
   { year: '2024', rate: 15900 },
-  { year: '2026', rate: 17700 },
+  { year: '2026', rate: 17800 },
 ];
 
 // Converter dropdown options
