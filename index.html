@@ -122,6 +122,39 @@
   </div>
 </section>
 
+<!-- BAHAN POKOK -->
+<section id="bahan-pokok" class="bahan-section">
+  <p class="section-label reveal">Daya Beli</p>
+  <h2 class="section-title reveal">Rp 100.000 bisa beli apa?</h2>
+  <p class="section-intro reveal">Bandingkan berapa banyak bahan pokok yang bisa kamu beli dengan Rp 100.000 di tahun 2015 vs 2025.</p>
+
+  <!-- Filter Kategori -->
+  <div class="commodity-filters reveal" id="commodity-filters">
+    <button class="filter-btn active" onclick="filterCommodity('Semua', this)">Semua</button>
+  </div>
+
+  <!-- Search -->
+  <div class="commodity-search reveal">
+    <input type="text" id="commodity-search" placeholder="🔍  Cari bahan pokok..." oninput="searchCommodity(this.value)">
+  </div>
+
+  <!-- Sort -->
+  <div class="commodity-sort reveal">
+    <span class="sort-label">Urutkan:</span>
+    <button class="sort-btn active" onclick="sortCommodity('name', this)">A–Z</button>
+    <button class="sort-btn" onclick="sortCommodity('inflation', this)">Kenaikan Tertinggi</button>
+    <button class="sort-btn" onclick="sortCommodity('qty', this)">Bisa Beli Terbanyak</button>
+  </div>
+
+  <!-- Cards Grid -->
+  <div class="commodity-grid" id="commodity-grid">
+    <!-- dirender oleh commodities.js -->
+  </div>
+
+  <!-- Summary Bar -->
+  <div class="commodity-summary reveal" id="commodity-summary"></div>
+</section>
+
 <!-- CONVERTER -->
 <section id="converter">
   <p class="section-label reveal">Live tool</p>
@@ -165,6 +198,7 @@
 <script src="data.js"></script>
 <script src="chart.js"></script>
 <script src="converter.js"></script>
+<script src="commodities.js"></script>
 <script src="animations.js"></script>
 
 </body>
