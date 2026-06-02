@@ -41,11 +41,11 @@ function convert() {
 
   if (convDir === 'usd2idr') {
     const result = Math.round(amount * rate);
-    labelEl.textContent  = '$' + amount.toLocaleString() + ' USD equals';
+    labelEl.textContent  = '$' + amount.toLocaleString() + ' USD sama dengan';
     outputEl.textContent = 'Rp ' + result.toLocaleString('id-ID');
   } else {
     const result = (amount / rate).toFixed(4);
-    labelEl.textContent  = 'Rp ' + amount.toLocaleString('id-ID') + ' IDR equals';
+    labelEl.textContent  = 'Rp ' + amount.toLocaleString('id-ID') + ' IDR sama dengan';
     outputEl.textContent = '$' + parseFloat(result).toLocaleString('en-US', {
       minimumFractionDigits: 2,
       maximumFractionDigits: 4,
