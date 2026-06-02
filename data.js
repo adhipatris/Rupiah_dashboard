@@ -53,48 +53,48 @@ const TIMELINE_EVENTS = [
     type: 'crisis',
     title: 'Asian Financial Crisis',
     desc: 'A wave of capital flight swept through Southeast Asia. Thailand\'s baht collapsed first, then contagion spread to Indonesia. The rupiah lost over 80% of its value in months. The IMF stepped in with a $43 billion emergency rescue package.',
-    rate: 'Rp 2,400 → Rp 16,650'
+    rate: 'Rp 2.400 → Rp 16.650'
   },
   {
     year: '2003',
     type: 'recovery',
     title: 'Post-Reformasi Stabilisation',
     desc: 'Political stability under the new democratic era, debt restructuring, and rebuilt foreign reserves brought confidence back. The rupiah recovered to roughly half its pre-crisis level and held there for nearly a decade.',
-    rate: '~Rp 8,577 per USD'
+    rate: '~Rp 8.577 per USD'
   },
   {
     year: '2008',
     type: '',
     title: 'Global Financial Crisis',
     desc: 'The collapse of Lehman Brothers triggered global panic. Indonesia fared better than in 1997 thanks to stronger reserves and a more orthodox monetary policy. The rupiah dipped briefly before recovering.',
-    rate: '~Rp 12,000 per USD'
+    rate: '~Rp 12.000 per USD'
   },
   {
     year: '2013',
     type: '',
     title: 'The Fed Taper Tantrum',
     desc: 'When the US Federal Reserve signalled it would wind down quantitative easing, capital rushed back to US assets. Emerging markets like Indonesia suffered sharp outflows and currency weakness.',
-    rate: '~Rp 12,200 per USD'
+    rate: '~Rp 12.200 per USD'
   },
   {
     year: '2018',
     type: 'crisis',
     title: 'Trade War & Strong Dollar',
     desc: 'Rising US interest rates under the Fed, combined with US–China trade tensions, drove capital from emerging markets. The rupiah hit its weakest level since the 1998 crisis, breaching Rp 15,000 for the first time.',
-    rate: '~Rp 15,200 per USD'
+    rate: '~Rp 15.200 per USD'
   },
   {
     year: '2020',
     type: 'crisis',
     title: 'COVID-19 Pandemic',
     desc: 'Global risk-off sentiment in March 2020 saw a flash selloff in rupiah. Bank Indonesia responded with rate cuts and bond purchases. The rupiah partially recovered through 2021 as commodity prices rebounded.',
-    rate: 'Rp 16,575 per USD'
+    rate: 'Rp 16.575 per USD'
   },
   {
     year: '2024–26',
     type: 'crisis',
     title: 'Persistent Dollar Strength',
     desc: 'A strong US dollar era driven by sticky American inflation, high US rates, and global risk aversion has pushed the rupiah to near-record lows above Rp 17,000. The rate now exceeds the worst daily levels of the 1998 crisis on an annual average basis.',
-    rate: 'Rp 17,000–17,700 per USD'
+    rate: 'Rp 17.000–17.800 per USD'
   },
 ];
