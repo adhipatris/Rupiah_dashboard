@@ -39,7 +39,7 @@ const CONVERTER_ERAS = [
   { label: "2015 · (Rp 13,389)",                rate: 13389 },
   { label: "2018 · Trade war (Rp 14,236)",      rate: 14236 },
   { label: "2020 · COVID (Rp 14,582)",          rate: 14582 },
-  { label: "2026 · Today (Rp 17,700)",          rate: 17700 },
+  { label: "2026 · Today (Rp 17,700)",          rate: 17800 },
 ];
 
 // Default selected era in converter (index in CONVERTER_ERAS)
