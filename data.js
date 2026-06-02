@@ -3,7 +3,7 @@
 //  Edit values here to update charts & converter
 // ─────────────────────────────────────────────
 
-// Annual average USD/IDR exchange rates (1997–2026)
+// Annual average USD/IDR exchange rates (1990–2026)
 const RATE_LABELS = [
   '1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026'
 ];
@@ -39,7 +39,7 @@ const CONVERTER_ERAS = [
   { label: "2015 · (Rp 13,389)",                rate: 13389 },
   { label: "2018 · Trade war (Rp 14,236)",      rate: 14236 },
   { label: "2020 · COVID (Rp 14,582)",          rate: 14582 },
-  { label: "2026 · Today (Rp 17,700)",          rate: 17800 },
+  { label: "2026 · Today (Rp 17,800)",          rate: 17800 },
 ];
 
 // Default selected era in converter (index in CONVERTER_ERAS)
