@@ -18,14 +18,14 @@ const RECENT_START_INDEX = 18;
 // Purchasing power chart data
 // Format: { year, rate } — auto-calculates USD value of Rp 100,000
 const POWER_DATA = [
-  { year: '1997', rate: 2400  },
-  { year: '1998', rate: 10014 },
-  { year: '2003', rate: 8577  },
-  { year: '2008', rate: 9699  },
-  { year: '2013', rate: 10460 },
-  { year: '2018', rate: 14236 },
-  { year: '2020', rate: 14582 },
-  { year: '2024', rate: 15900 },
+  { year: '1997', rate: 5500  },
+  { year: '1998', rate: 9595 },
+  { year: '2003', rate: 9830  },
+  { year: '2008', rate: 10950  },
+  { year: '2013', rate: 12189 },
+  { year: '2018', rate: 14481 },
+  { year: '2020', rate: 14105 },
+  { year: '2024', rate: 15397 },
   { year: '2026', rate: 17800 },
 ];
 
