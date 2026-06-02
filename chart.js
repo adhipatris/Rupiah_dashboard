@@ -5,8 +5,8 @@
 
 // ── Shared colour tokens ──
 const C_LINE     = '#70AD47';
-const C_AREA     = 'rgba(200,56,42,0.08)';
-const C_GRID     = 'rgba(26,18,8,0.06)';
+const C_AREA     = 'rgba(112,173,71,0.2)';
+const C_GRID     = 'rgba(0,0,0,0.08)';
 const C_TICK     = '#8A7B68';
 const C_TOOLTIP_BG    = '#1A1208';
 const C_TOOLTIP_TITLE = '#FAF7F2';
