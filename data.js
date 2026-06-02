@@ -32,14 +32,14 @@ const POWER_DATA = [
 // Converter dropdown options
 // Format: { label, rate }
 const CONVERTER_ERAS = [
-  { label: "1997 · Pre-crisis (Rp 2,400)",      rate: 2400  },
-  { label: "1998 · Crisis peak (Rp 10,014)",    rate: 10014 },
-  { label: "2003 · Recovery (Rp 8,577)",        rate: 8577  },
-  { label: "2008 · Financial crisis (Rp 9,699)",rate: 9699  },
-  { label: "2015 · (Rp 13,389)",                rate: 13389 },
-  { label: "2018 · Trade war (Rp 14,236)",      rate: 14236 },
-  { label: "2020 · COVID (Rp 14,582)",          rate: 14582 },
-  { label: "2026 · Today (Rp 17,800)",          rate: 17800 },
+  { label: "1997 · Pra krisis (Rp 2.400)",          rate: 2400  },
+  { label: "1998 · Puncak krisis (Rp 10.014)",      rate: 10014 },
+  { label: "2003 · Pemulihan (Rp 8.577)",           rate: 8577  },
+  { label: "2008 · Krisis keuangan (Rp 9.699)",     rate: 9699  },
+  { label: "2015 · (Rp 13,389)",                    rate: 13389 },
+  { label: "2018 · Perang dagang (Rp 14.236)",      rate: 14236 },
+  { label: "2020 · COVID (Rp 14.582)",              rate: 14582 },
+  { label: "2026 · Hari ini (Rp 17,800)",           rate: 17800 },
 ];
 
 // Default selected era in converter (index in CONVERTER_ERAS)
