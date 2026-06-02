@@ -4,8 +4,8 @@
 //  Sumber estimasi: BPS, Harga Pangan Nasional
 // ─────────────────────────────────────────────
 
-const YEAR_OLD = 2015;
-const YEAR_NEW = 2025;
+const YEAR_OLD = 2016;
+const YEAR_NEW = 2026;
 const BUDGET   = 100000;
 
 const COMMODITIES = [
