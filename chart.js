@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────────
 
 // ── Shared colour tokens ──
-const C_LINE     = '#C8382A';
+const C_LINE     = '#70AD47';
 const C_AREA     = 'rgba(200,56,42,0.08)';
 const C_GRID     = 'rgba(26,18,8,0.06)';
 const C_TICK     = '#8A7B68';
